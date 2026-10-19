@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#fff5f7" />
   <title>کیک ریلیا | Riliacake</title>
-  <meta name="description"
-    content="کیک ریلیا — سفارش کیک‌های خانگی و تازه با یک تماس. اینستاگرام و کانال ایتا." />
+  <meta name="description" content="کیک ریلیا — سفارش کیک‌های خانگی و تازه با یک تماس. اینستاگرام و کانال ایتا." />
 
   <!-- فونت وزیرمتن با اتصال سریع و بهینه -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,8 +22,6 @@
       --muted: #7a6570;
       --primary: #e91e63;
       --primary-dark: #c2185b;
-      --insta: #d62976;
-      --eitaa: #2aabee;
       --shadow: 0 20px 60px rgba(233, 30, 99, 0.15);
       --radius: 24px;
     }
@@ -72,18 +69,15 @@
       background: linear-gradient(90deg, var(--primary), #ff8fab, var(--primary));
     }
 
-    .logo {
-      width: 88px;
-      height: 88px;
+    .logo-img {
+      width: 96px;
+      height: 96px;
       margin: 0 auto 16px;
       border-radius: 50%;
-      background: linear-gradient(135deg, #ffe0ea, #ffffff);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 42px;
-      box-shadow: 0 8px 24px rgba(233, 30, 99, 0.16);
-      user-select: none;
+      object-fit: cover;
+      display: block;
+      box-shadow: 0 8px 24px rgba(233, 30, 99, 0.2);
+      border: 3px solid #ffffff;
     }
 
     h1 {
@@ -231,7 +225,7 @@
 
 <body>
   <main class="card" role="main">
-    <div class="logo" aria-hidden="true">🎂</div>
+    <img src="photo_30669583598_x.jpg" alt="لوگوی کیک ریلیا" class="logo-img" />
     <h1>کیک ریلیا</h1>
     <p class="subtitle">Riliacake — سفارش کیک‌های تازه، با یک تماس</p>
 
@@ -249,6 +243,7 @@
         <span class="icon" aria-hidden="true">📷</span>
         <span>صفحه اینستاگرام</span>
       </a>
+
       <a class="btn btn-eitaa" href="https://eitaa.com/Riliacake" target="_blank" rel="noopener noreferrer"
         aria-label="کانال ایتا ریلیا">
         <span class="icon" aria-hidden="true">💬</span>
